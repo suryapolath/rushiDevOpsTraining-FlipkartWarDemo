@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: flipkart-app
 spec:
-  replicas: 10
+  replicas: 3
   selector:
     matchLabels:
       app: flipkart-app
