@@ -280,7 +280,7 @@ spec:
     spec:
       containers:
         - name: flipkart-app
-          image: docker.io/devopsbyrushi/octsecurebankcicdpipleline:v1
+          image: docker.io/surya7726/octflitkart:v2
           imagePullPolicy: Always
           ports:
             - name: http
